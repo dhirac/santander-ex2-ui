@@ -96,14 +96,9 @@ export default class App extends Component {
 
    
 
-    var requestOptions = {
-      method: 'POST',
-      redirect: 'follow'
-    };
-
-    
-    //http://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com
-    var url = "http://localhost:5000/sentiment";
+   
+    //http://localhost:5000/
+    var url = "https://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com/sentiment";
     
     fetch(url,{
       method: 'POST',
