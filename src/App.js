@@ -96,9 +96,8 @@ export default class App extends Component {
 
    
 
-   
-    //http://localhost:5000/
-    var url = "https://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com/sentiment";
+    
+    var url = "http://localhost:5000/sentiment";
     
     fetch(url,{
       method: 'POST',
