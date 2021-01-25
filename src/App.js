@@ -97,7 +97,7 @@ export default class App extends Component {
    
 
     
-    var url = "http://localhost:5000/sentiment";
+    var url = "https://santander.himalayandevops.com/sentiment";
     
     fetch(url,{
       method: 'POST',
