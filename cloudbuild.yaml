@@ -1,9 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/npm'
   entrypoint: 'yarn'
-  args: ["install"]
-- name: 'gcr.io/cloud-builders/npm'
-  entrypoint: 'yarn'
   args: ["build"]
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: 'bash'
