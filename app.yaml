@@ -9,3 +9,11 @@ handlers:
 - url: /.*
   static_files: build/index.html
   upload: build/index.html
+  
+- url: /(.*\.(gif|png|jpg|css|js)(|\.map))$
+  static_files: dist/\1
+  upload: dist/(.*)(|\.map)
+
+- url: /(.*)
+  static_files: dist/index.html
+  upload: dist/index.html
