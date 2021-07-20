@@ -1,6 +1,6 @@
 steps:
-- name: node
-    entrypoint: yarn
+- name: 'node'
+    entrypoint: 'yarn'
     args: ["yarn", "install --frozen-lockfile"]
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: 'bash'
