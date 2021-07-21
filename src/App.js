@@ -97,8 +97,8 @@ export default class App extends Component {
    
 
     
-    var url = "https://santander.himalayandevops.com/sentiment";
-    
+   //var url = "https://santander.himalayandevops.com/sentiment";
+    var url = "https://backend-service-dot-carbon-airlock-316822.uc.r.appspot.com/";
     fetch(url,{
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
