@@ -186,7 +186,7 @@ export default class App extends Component {
           <Col  xs={6} md={4}>  
             
              <>
-             <h1 style={{fontSize:70,color:'white',marginTop:'0px',textAlign:'center',marginBottom:0,paddingBottom:0,paddingTop:10}}>GROUPMM</h1>
+             <h1 style={{fontSize:70,color:'white',marginTop:'0px',textAlign:'center',marginBottom:0,paddingBottom:0,paddingTop:10}}>GROUPM</h1>
              <h2 style={{marginTop:'0px',color:'white',textAlign:'center',fontSize:'15px'}}>Application to analyse twitter sentiment ...</h2>
              </>
              
