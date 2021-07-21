@@ -179,7 +179,7 @@ export default class App extends Component {
 <Container fluid>
        
 
-          <Row style={{backgroundColor:'#EA2025',height:"150px"}}>
+          <Row style={{backgroundColor:'#8AB0FB',height:"150px"}}>
 
           <Col  xs={6} md={4}>  </Col>
   
@@ -225,7 +225,7 @@ export default class App extends Component {
                          style={{width:500 ,marginTop:5, textAlign:'center', alignItems:'center'}} placeholder="How many tweets you want to analyse:" />
                       
                         &nbsp;&nbsp;
-                        <Button variant="danger" type="submit" clsss="text-center" style={{textAlign:'center',marginTop:10,width:500}}>
+                        <Button variant="primary" type="submit" clsss="text-center" style={{textAlign:'center',marginTop:10,width:500}}>
                       
                         Analyse Tweets
                         </Button>
@@ -357,7 +357,7 @@ export default class App extends Component {
                  
                  <div style={{textAlign:'center',alignItems:'center'}}>
                  <h1 style={{marginTop:200, textAlign:'center',fontSize:19}}>Sorry, We could not found anythig with that keyword. Search again with correct keyword !!!</h1>
-                 <Button variant="danger"  onClick={function(e) { window.location.reload(); } }  style={{textAlign:'center',marginTop:10,width:500}}>
+                 <Button variant="primary"  onClick={function(e) { window.location.reload(); } }  style={{textAlign:'center',marginTop:10,width:500}}>
                       
                       Search Again
                   </Button>
